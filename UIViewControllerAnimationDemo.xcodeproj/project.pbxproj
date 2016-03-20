@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641FB3B51C9BB19600F7083D /* LCNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FB3B41C9BB19600F7083D /* LCNavigationDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		641FB3B71C9BC3CD00F7083D /* LCTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FB3B61C9BC3CD00F7083D /* LCTransitionAnimation.swift */; settings = {ASSET_TAGS = (); }; };
 		64F443BE1C9BA8E9003864DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F443BD1C9BA8E9003864DE /* AppDelegate.swift */; };
 		64F443C01C9BA8E9003864DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F443BF1C9BA8E9003864DE /* ViewController.swift */; };
 		64F443C31C9BA8E9003864DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F443C11C9BA8E9003864DE /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		641FB3B41C9BB19600F7083D /* LCNavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNavigationDelegate.swift; sourceTree = "<group>"; };
+		641FB3B61C9BC3CD00F7083D /* LCTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTransitionAnimation.swift; sourceTree = "<group>"; };
 		64F443BA1C9BA8E9003864DE /* UIViewControllerAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewControllerAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F443BD1C9BA8E9003864DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F443BF1C9BA8E9003864DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				64F443BD1C9BA8E9003864DE /* AppDelegate.swift */,
 				64F443BF1C9BA8E9003864DE /* ViewController.swift */,
+				641FB3B41C9BB19600F7083D /* LCNavigationDelegate.swift */,
+				641FB3B61C9BC3CD00F7083D /* LCTransitionAnimation.swift */,
 				64F443C11C9BA8E9003864DE /* Main.storyboard */,
 				64F443C41C9BA8E9003864DE /* Assets.xcassets */,
 				64F443C61C9BA8E9003864DE /* LaunchScreen.storyboard */,
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641FB3B71C9BC3CD00F7083D /* LCTransitionAnimation.swift in Sources */,
 				64F443C01C9BA8E9003864DE /* ViewController.swift in Sources */,
+				641FB3B51C9BB19600F7083D /* LCNavigationDelegate.swift in Sources */,
 				64F443BE1C9BA8E9003864DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +489,7 @@
 				64F443E41C9BA8E9003864DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F443E51C9BA8E9003864DE /* Build configuration list for PBXNativeTarget "UIViewControllerAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				64F443E71C9BA8E9003864DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F443E81C9BA8E9003864DE /* Build configuration list for PBXNativeTarget "UIViewControllerAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				64F443EA1C9BA8E9003864DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
